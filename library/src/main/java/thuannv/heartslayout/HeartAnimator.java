@@ -66,6 +66,7 @@ public class HeartAnimator {
         y1 = viewHeight - mInitY;
         y2 = counter.intValue() * 15 + mAnimLength * factor + mRandom.nextInt(mAnimLengthRand);
         factor = y2 / mBezierFactor;
+
         x1 = x1 - (mXRand - 50);
         x2 = mXPointFactor + x2;
         y3 = y1 - y2;
